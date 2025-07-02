@@ -50,9 +50,10 @@
 							"parameters" : [ "nightmare", false ]
 						}
 					],
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 18, 6 ]
+					"updater": {
+						"type": "GROWS_WITH_LEVEL",
+						"valPer20" : 18,
+						"stepSize" : 6
 					}
 				},
 				"defence" : {
@@ -64,9 +65,10 @@
 							"parameters" : [ "nightmare", false ]
 						}
 					],
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"parameters" : [ 16, 6 ]
+					"updater": {
+						"type": "GROWS_WITH_LEVEL",
+						"valPer20" : 16,
+						"stepSize" : 6
 					}
 				},
 				"sulfur" : {
