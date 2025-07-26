@@ -22,12 +22,13 @@
 	"base" : { "val" : 1 },
 	"bonuses" : {
 		"ADDITIONAL_RETALIATION" : {
-			"limiters" : [
-				{
-					"parameters" : [ "nomad", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "nomad", 
+							"includeUpgrades" : false
+						}
+					],
 			"updater" : {  
 				"type" : "GROWS_WITH_LEVEL",
 				"valPer20" : 3,
@@ -36,16 +37,17 @@
 			"type" : "ADDITIONAL_RETALIATION"
 		},
 		"gems" : {
-			"subtype" : "resource.gems",
+			"subtype" : "gems",
 			"type" : "GENERATE_RESOURCE"
 		},
 		"speed" : {
-			"limiters" : [
-				{
-					"parameters" : [ "nomad", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "nomad", 
+							"includeUpgrades" : false
+						}
+					],
 			"updater" : {  
 				"type" : "GROWS_WITH_LEVEL",
 				"valPer20" : 3,

@@ -45,13 +45,14 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "fangarm", false ]
+							"creature" : "fangarm", 
+							"includeUpgrades" : false
 						}
 					]
 				},
 				"hypnotize" : {
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT",
-					"subtype" : "spell.hypnotize",
+					"subtype" : "hypnotize",
 					"addInfo" : 3
 				},
 				"speed" : {
@@ -60,7 +61,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "fangarm", false ]
+							"creature" : "fangarm", 
+							"includeUpgrades" : false
 						}
 					],
 					"updater": {

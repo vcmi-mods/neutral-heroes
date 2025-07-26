@@ -38,68 +38,68 @@
 			"bonuses" : {
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.gems",
+					"subtype" : "gems",
 					"val" : 1
 				},
 				"fireMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireMessenger",
-					"addInfo" : "creature.airMessenger"
+					"subtype" : "fireMessenger",
+					"addInfo" : "airMessenger"
 				},
 				"fireMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireMessenger",
-					"addInfo" : "creature.earthMessenger"
+					"subtype" : "fireMessenger",
+					"addInfo" : "earthMessenger"
 				},
 				"fireMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireMessenger",
-					"addInfo" : "creature.waterMessenger"
+					"subtype" : "fireMessenger",
+					"addInfo" : "waterMessenger"
 				},
 				"airMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airMessenger",
-					"addInfo" : "creature.fireMessenger"
+					"subtype" : "airMessenger",
+					"addInfo" : "fireMessenger"
 				},
 				"airMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airMessenger",
-					"addInfo" : "creature.earthMessenger"
+					"subtype" : "airMessenger",
+					"addInfo" : "earthMessenger"
 				},
 				"airMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airMessenger",
-					"addInfo" : "creature.waterMessenger"
+					"subtype" : "airMessenger",
+					"addInfo" : "waterMessenger"
 				},
 				"earthMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthMessenger",
-					"addInfo" : "creature.fireMessenger"
+					"subtype" : "earthMessenger",
+					"addInfo" : "fireMessenger"
 				},
 				"earthMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthMessenger",
-					"addInfo" : "creature.airMessenger"
+					"subtype" : "earthMessenger",
+					"addInfo" : "airMessenger"
 				},
 				"earthMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthMessenger",
-					"addInfo" : "creature.waterMessenger"
+					"subtype" : "earthMessenger",
+					"addInfo" : "waterMessenger"
 				},
 				"waterMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterMessenger",
-					"addInfo" : "creature.fireMessenger"
+					"subtype" : "waterMessenger",
+					"addInfo" : "fireMessenger"
 				},
 				"waterMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterMessenger",
-					"addInfo" : "creature.airMessenger"
+					"subtype" : "waterMessenger",
+					"addInfo" : "airMessenger"
 				},
 				"waterMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterMessenger",
-					"addInfo" : "creature.earthMessenger"
+					"subtype" : "waterMessenger",
+					"addInfo" : "earthMessenger"
 				}
 			}
 		},

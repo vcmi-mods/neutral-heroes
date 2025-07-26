@@ -31,9 +31,9 @@
 			{
 				"type" : "SHOOTER"
 			},
-			"magicResistance" :
-			{
-				"type" : "MAGIC_RESISTANCE",
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"enchant" :
@@ -44,7 +44,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.misfortune",
+				"subtype" : "misfortune",
 				"val" : 3
 			},
 			"castsAmount" :

@@ -1,5 +1,5 @@
 {
-	"version" : "1.17",
+	"version" : "1.18",
 	"author" : "avatar, Nephretes, Witchking, draeganfire, MK. Portraits are taken from various sources from the net.",
 	"contact" : "http://www.vault.acidcave.net/download.php?id=553",
 	"description" : "Mod creates neutral heroes class called Drifter. Drifter can be hired in Tavers, but can't chosen as starting heroes.",
@@ -28,7 +28,8 @@
 		"1.14"   : ["Czech translation by George King"],
 		"1.15"   : ["Polish translation by FallainBlack"],
 		"1.16"   : ["Minor fixes"],
-		"1.17"   : ["Update to vcmi-1.7 format"]
+		"1.17"   : ["Update to vcmi-1.7 format"],
+		"1.18"   : ["Another update to vcmi-1.7 format"]
     },
 	"german" : {
 		"name" : "Neutrale Helden",

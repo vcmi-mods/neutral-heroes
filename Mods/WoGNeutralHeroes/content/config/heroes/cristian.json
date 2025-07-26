@@ -38,18 +38,18 @@
 			"bonuses" : {
 				"mercury" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.mercury",
+					"subtype" : "mercury",
 					"val" : 1
 				},
 				"arcticSharpshooter2lavaSharpshooter" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.arcticSharpshooter",
-					"addInfo" : "creature.lavaSharpshooter"
+					"subtype" : "arcticSharpshooter",
+					"addInfo" : "lavaSharpshooter"
 				},
 				"lavaSharpshooter2arcticSharpshooter" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.lavaSharpshooter",
-					"addInfo" : "creature.arcticSharpshooter"
+					"subtype" : "lavaSharpshooter",
+					"addInfo" : "arcticSharpshooter"
 				}
 			}
 		},

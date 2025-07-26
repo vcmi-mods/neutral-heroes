@@ -47,7 +47,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "nightmare", false ]
+							"creature" : "nightmare", 
+							"includeUpgrades" : false
 						}
 					],
 					"updater": {
@@ -62,7 +63,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "nightmare", false ]
+							"creature" : "nightmare", 
+							"includeUpgrades" : false
 						}
 					],
 					"updater": {
@@ -73,17 +75,18 @@
 				},
 				"sulfur" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.sulfur",
+					"subtype" : "sulfur",
 					"val" : 1
 				},
 				"HATE" : {
 					"type" : "HATE",
-					"subtype" : "creature.warUnicorn",
+					"subtype" : "warUnicorn",
 					"val" : 50,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "nightmare", false ]
+							"creature" : "nightmare", 
+							"includeUpgrades" : false
 						}
 					]
 				},

@@ -43,7 +43,7 @@
 			"bonuses" : {
 				"OPENING_BATTLE_SPELL" : {
 					"type" : "OPENING_BATTLE_SPELL",
-					"subtype" : "spell.precision",
+					"subtype" : "precision",
 					"val" : 10,
 					"valueType" : "BASE_NUMBER"
 				},
@@ -54,7 +54,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "warZealot", false ]
+							"creature" : "warZealot", 
+							"includeUpgrades" : false
 						}
 					]
 				}

@@ -21,22 +21,24 @@
 "specialty" : {
 	"bonuses" : {
 		"JOUSTING" : {
-			"limiters" : [
-				{
-					"parameters" : [ "boar", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "boar", 
+							"includeUpgrades" : false
+						}
+					],
 			"type" : "JOUSTING",
 			"val" : 1
 		},
 		"attack" : {
-			"limiters" : [
-				{
-					"parameters" : [ "boar", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "boar", 
+							"includeUpgrades" : false
+						}
+					],
 			"subtype" : "attack",
 			"type" : "PRIMARY_SKILL",
 			"updater" : {  
@@ -46,12 +48,13 @@
 			}
 		},
 		"defence" : {
-			"limiters" : [
-				{
-					"parameters" : [ "boar", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "boar", 
+							"includeUpgrades" : false
+						}
+					],
 			"subtype" : "defence",
 			"type" : "PRIMARY_SKILL",
 			"updater" : {  
@@ -61,12 +64,12 @@
 			}
 		},
 		"ore" : {
-			"subtype" : "resource.ore",
+			"subtype" : "ore",
 			"type" : "GENERATE_RESOURCE",
 			"val" : 1
 		},
 		"wood" : {
-			"subtype" : "resource.wood",
+			"subtype" : "wood",
 			"type" : "GENERATE_RESOURCE",
 			"val" : 1
 		}

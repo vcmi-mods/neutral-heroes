@@ -19,24 +19,25 @@
 		],
 		
 "specialty" : {
+	"creature" : "rogue",
 	"bonuses" : {
 		"hate" : {
-			"subtype" : "creature.gog",
+			"subtype" : "gog",
 			"type" : "HATE",
 			"val" : 50
 		},
 		"hate2" : {
-			"subtype" : "creature.magog",
+			"subtype" : "magog",
 			"type" : "HATE",
 			"val" : 50
 		},
 		"crystal" : {
-			"subtype" : "resource.crystal",
+			"subtype" : "crystal",
 			"type" : "GENERATE_RESOURCE",
 			"val" : 1
 		},
 		"gems" : {
-			"subtype" : "resource.gems",
+			"subtype" : "gems",
 			"type" : "GENERATE_RESOURCE",
 			"val" : 1
 		}

@@ -47,7 +47,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "ghost", false ]
+							"creature" : "ghost", 
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -59,13 +60,14 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "ghost", false ]
+							"creature" : "ghost", 
+							"includeUpgrades" : false
 						}
 					]
 				},
 				"mercury" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.mercury",
+					"subtype" : "mercury",
 					"val" : 1
 				}
 			}

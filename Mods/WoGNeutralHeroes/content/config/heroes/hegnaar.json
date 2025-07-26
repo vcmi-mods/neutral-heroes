@@ -41,7 +41,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "hellSteed", false ]
+							"creature" : "hellSteed", 
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -50,13 +51,14 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "hellSteed", false ]
+							"creature" : "hellSteed", 
+							"includeUpgrades" : false
 						}
 					]
 				},
 				"fireWall" : {
 					"type" : "SPECIFIC_SPELL_DAMAGE",
-					"subtype" : "spell.fireWall",
+					"subtype" : "fireWall",
 					"val" : 20
 				}
 			}

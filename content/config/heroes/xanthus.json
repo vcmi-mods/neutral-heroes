@@ -24,58 +24,76 @@
 				"casts":{
 					"type" : "CASTS",
 					"val": 3,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "goldGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "goldGolem", 
+							"includeUpgrades" : false
+						}
+					]
 				},
 				"casts2":{
 					"type" : "CASTS",
 					"val": 3,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "diamondGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "diamondGolem", 
+							"includeUpgrades" : false
+						}
+					]
 				},
 				"ironGolemSummoning": {
 					"type" : "SPELLCASTER",
-					"subtype": "spell.summonIronGolem",
+					"subtype": "summonIronGolem",
 					"val": 0,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "goldGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "goldGolem", 
+							"includeUpgrades" : false
+						}
+					]
 				},
 				"summonIronPower" : {
 					"type" : "SPECIFIC_SPELL_POWER",
-					"subtype" : "spell.summonIronGolem",
+					"subtype" : "summonIronGolem",
 					"val" : 100,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "goldGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "goldGolem", 
+							"includeUpgrades" : false
+						}
+					]
 				},
 				"stoneGolemSummoning": {
 					"type" : "SPELLCASTER",
-					"subtype": "spell.summonStoneGolem",
+					"subtype": "summonStoneGolem",
 					"val": 0,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "diamondGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "diamondGolem", 
+							"includeUpgrades" : false
+						}
+					]
 					},
 				"summonStonePower" : 
 				{
 				"type" : "SPECIFIC_SPELL_POWER",
-					"subtype" : "spell.summonStoneGolem",
+					"subtype" : "summonStoneGolem",
 					"val" : 100,
-					"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "diamondGolem", false ]
-					} ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "diamondGolem", 
+							"includeUpgrades" : false
+						}
+					]
 				},
 				"gold" : {
-					"subtype" : "resource.gold",
+					"subtype" : "gold",
 					"type" : "GENERATE_RESOURCE",
 				"val" : 350
 				}

@@ -23,7 +23,13 @@
 				"speed" : {
 						"type" : "STACKS_SPEED",
 						"val" : 2,
-						"limiters" : [ { "parameters" : [ "peasant", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "peasant", 
+							"includeUpgrades" : false
+						}
+					],
 						"updater" : {  
 							"type" : "GROWS_WITH_LEVEL",
 							"valPer20" : 4,
@@ -31,7 +37,13 @@
 						}
 				},
 				"damage" : {
-						"limiters" : [ { "parameters" : [ "peasant", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
+						"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "peasant", 
+							"includeUpgrades" : false
+						}
+					],
 						"updater" : {  
 							"type" : "GROWS_WITH_LEVEL",
 							"valPer20" : 4,
@@ -42,7 +54,7 @@
 					"subtype" : "creatureDamageBoth"
 				},
 				"gold" :{ 
-						"subtype" : "resource.gold", 
+						"subtype" : "gold", 
 						"type" : "GENERATE_RESOURCE", 
 						"val" : 350 
 				}

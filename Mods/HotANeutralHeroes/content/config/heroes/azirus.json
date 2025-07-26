@@ -46,7 +46,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "satyr", false ]
+							"creature" : "satyr", 
+							"includeUpgrades" : false
 						}
 					],
 					"updater": {
@@ -61,7 +62,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "satyr", false ]
+							"creature" : "satyr", 
+							"includeUpgrades" : false
 						}
 					],
 					"updater": {
@@ -72,17 +74,17 @@
 				},
 				"gold" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.gold",
+					"subtype" : "gold",
 					"val" : 250
 				},
 				"ore" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.ore",
+					"subtype" : "ore",
 					"val" : 1
 				},
 				"wood" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.wood",
+					"subtype" : "wood",
 					"val" : 1
 				}
 			}

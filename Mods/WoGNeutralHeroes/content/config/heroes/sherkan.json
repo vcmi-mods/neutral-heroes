@@ -42,7 +42,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "gorynych", false ]
+							"creature" : "gorynych", 
+							"includeUpgrades" : false
 						}
 					]
 				},

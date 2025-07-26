@@ -47,7 +47,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "wogSorceress", false ]
+							"creature" : "wogSorceress", 
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -57,7 +58,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "wogSorceress", false ]
+							"creature" : "wogSorceress", 
+							"includeUpgrades" : false
 						}
 					]
 				},

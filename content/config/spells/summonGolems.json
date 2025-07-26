@@ -21,11 +21,11 @@
 				"cost" : 1,
 				"range" : "0",
 				"battleEffects":{
-					"demonSummon":{
+					"ironGolemSummon":{
 						"id":"ironGolem",
 						"permanent":true,
 						"summonByHealth" : false,
-						"type":"core:demonSummon"
+						"type":"core:summon"
 					}
 				}
 			},
@@ -67,11 +67,11 @@
 				"cost" : 1,
 				"range" : "0",
 				"battleEffects":{
-					"demonSummon":{
+					"stoneGolemSummon":{
 						"id":"stoneGolem",
 						"permanent":true,
 						"summonByHealth" : false,
-						"type":"core:demonSummon"
+						"type":"core:summon"
 					}
 				}
 			},

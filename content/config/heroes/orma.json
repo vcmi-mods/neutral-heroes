@@ -21,22 +21,24 @@
 "specialty" : {
 	"bonuses" : {
 		"freeShooting" : {
-			"limiters" : [
-				{
-					"parameters" : [ "halfling", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "halfling", 
+							"includeUpgrades" : false
+						}
+					],
 			"type" : "FREE_SHOOTING",
 			"val" : 20
 		},
 		"attack" : {
-			"limiters" : [
-				{
-					"parameters" : [ "halfling", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "halfling", 
+							"includeUpgrades" : false
+						}
+					],
 			"subtype" : "attack",
 			"type" : "PRIMARY_SKILL",
 			"updater" : {  
@@ -46,12 +48,13 @@
 			}
 		},
 		"defence" : {
-			"limiters" : [
-				{
-					"parameters" : [ "halfling", false ],
-					"type" : "CREATURE_TYPE_LIMITER"
-				}
-			],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "halfling", 
+							"includeUpgrades" : false
+						}
+					],
 			"subtype" : "defence",
 			"type" : "PRIMARY_SKILL",
 			"updater" : {  
@@ -62,7 +65,7 @@
 		},
 		"magicArrow" : {
 			"addInfo" : 0,
-			"subtype" : "spell.magicArrow",
+			"subtype" : "magicArrow",
 			"type" : "SPECIAL_PECULIAR_ENCHANT"
 		}
 	}

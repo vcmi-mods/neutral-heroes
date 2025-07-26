@@ -46,7 +46,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "werewolf", false ]
+							"creature" : "werewolf", 
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -55,13 +56,14 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "werewolf", false ]
+							"creature" : "werewolf", 
+							"includeUpgrades" : false
 						}
 					]
 				},
 				"crystal" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.crystal",
+					"subtype" : "crystal",
 					"val" : 1
 				}
 			}

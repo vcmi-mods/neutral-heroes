@@ -47,7 +47,8 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "sylvanCentaur", false ]
+							"creature" : "sylvanCentaur", 
+							"includeUpgrades" : false
 						}
 					]
 				},
@@ -57,13 +58,14 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "sylvanCentaur", false ]
+							"creature" : "sylvanCentaur", 
+							"includeUpgrades" : false
 						}
 					]
 				},
 				"lightningBolt" : {
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT",
-					"subtype" : "spell.lightningBolt",
+					"subtype" : "lightningBolt",
 					"addInfo" : 3
 				}
 			}
