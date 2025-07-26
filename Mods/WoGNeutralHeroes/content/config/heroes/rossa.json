@@ -47,7 +47,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "ghost", 
+							"creature" : "ghost",
 							"includeUpgrades" : false
 						}
 					]
@@ -60,7 +60,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "ghost", 
+							"creature" : "ghost",
 							"includeUpgrades" : false
 						}
 					]

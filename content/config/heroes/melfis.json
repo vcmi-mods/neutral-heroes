@@ -1,9 +1,21 @@
 {
 	"melfis" : {
 		"army" : [
-			{ "creature" : "rogue", "max" : 12, "min" : 6 },
-			{ "creature" : "rogue", "max" : 12, "min" : 6 },
-			{ "creature" : "nomad", "max" : 6, "min" : 4 }
+			{
+				"creature" : "rogue",
+				"max" : 12,
+				"min" : 6
+			},
+			{
+				"creature" : "rogue",
+				"max" : 12,
+				"min" : 6
+			},
+			{
+				"creature" : "nomad",
+				"max" : 6,
+				"min" : 4
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,36 +25,41 @@
 			"specialtySmall" : "melfis/rogue_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "luck" },
-			{ "level" : "basic", "skill" : "tactics" }
-			
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
 		],
-		
-"specialty" : {
-	"creature" : "rogue",
-	"bonuses" : {
-		"hate" : {
-			"subtype" : "gog",
-			"type" : "HATE",
-			"val" : 50
+
+		"specialty" : {
+			"creature" : "rogue",
+			"bonuses" : {
+				"hate" : {
+					"subtype" : "gog",
+					"type" : "HATE",
+					"val" : 50
+				},
+				"hate2" : {
+					"subtype" : "magog",
+					"type" : "HATE",
+					"val" : 50
+				},
+				"crystal" : {
+					"subtype" : "crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				},
+				"gems" : {
+					"subtype" : "gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
 		},
-		"hate2" : {
-			"subtype" : "magog",
-			"type" : "HATE",
-			"val" : 50
-		},
-		"crystal" : {
-			"subtype" : "crystal",
-			"type" : "GENERATE_RESOURCE",
-			"val" : 1
-		},
-		"gems" : {
-			"subtype" : "gems",
-			"type" : "GENERATE_RESOURCE",
-			"val" : 1
-		}
-	}
-},
 		"texts" : {
 			"biography" : "Melfis was taken into the Thieves' Guild when his family was killed by a Magog attack of their village. As such he trained hard in the guild, becoming one of the most skilled of rogues, and rising through the chain of command, always keeping in mind his hatred of the Gog and Magog kind, always knowing he would one day hunt down and destroy the tribe that slaughtered his family.",
 			"name" : "Melfis",

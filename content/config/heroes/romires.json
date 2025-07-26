@@ -1,9 +1,21 @@
 {
 	"romires" : {
 		"army" : [
-			{ "creature" : "nomad", "max" : 8, "min" : 4 },
-			{ "creature" : "rogue", "max" : 16, "min" : 6 },
-			{ "creature" : "nomad", "max" : 6, "min" : 3 }
+			{
+				"creature" : "nomad",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "rogue",
+				"max" : 16,
+				"min" : 6
+			},
+			{
+				"creature" : "nomad",
+				"max" : 6,
+				"min" : 3
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,50 +25,60 @@
 			"specialtySmall" : "romires/nomad_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "tactics" },
-			{ "level" : "basic", "skill" : "resistance" },
-			{ "level" : "basic", "skill" : "logistics" }
-			
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
 		],
-"specialty" : {
-	"base" : { "val" : 1 },
-	"bonuses" : {
-		"ADDITIONAL_RETALIATION" : {
+		"specialty" : {
+			"base" : {
+				"val" : 1
+			},
+			"bonuses" : {
+				"ADDITIONAL_RETALIATION" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "nomad", 
+							"creature" : "nomad",
 							"includeUpgrades" : false
 						}
 					],
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 3,
-				"stepSize" : 1
-			},
-			"type" : "ADDITIONAL_RETALIATION"
-		},
-		"gems" : {
-			"subtype" : "gems",
-			"type" : "GENERATE_RESOURCE"
-		},
-		"speed" : {
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 3,
+						"stepSize" : 1
+					},
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"gems" : {
+					"subtype" : "gems",
+					"type" : "GENERATE_RESOURCE"
+				},
+				"speed" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "nomad", 
+							"creature" : "nomad",
 							"includeUpgrades" : false
 						}
 					],
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 3,
-				"stepSize" : 1
-			},
-			"type" : "STACKS_SPEED"
-		}
-	}
-},
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 3,
+						"stepSize" : 1
+					},
+					"type" : "STACKS_SPEED"
+				}
+			}
+		},
 		"texts" : {
 			"biography" : "Romires is a skilled equestrian with few rivals. His skills on horseback are so renowned that his tribe follows him with unswerving loyalty, calling themselves the 'Knights of Romires'.",
 			"name" : "Romires",

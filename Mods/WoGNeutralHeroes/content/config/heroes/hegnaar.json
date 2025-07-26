@@ -41,7 +41,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hellSteed", 
+							"creature" : "hellSteed",
 							"includeUpgrades" : false
 						}
 					]
@@ -51,7 +51,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hellSteed", 
+							"creature" : "hellSteed",
 							"includeUpgrades" : false
 						}
 					]

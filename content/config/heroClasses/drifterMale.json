@@ -5,7 +5,7 @@
 		"affinity" : "might",
 		"defaultTavern" : 5,
 		"commander" : "nhHalfling",
-		"animation":  {
+		"animation" : {
 			"battle" : {
 				"male" : "heroClasses/drifter/nhDrifterMale",
 				"female" : "heroClasses/drifter/nhDrifterMale"
@@ -15,7 +15,7 @@
 			"templates" : {
 				"default" : {
 					"animation" : "heroClasses/drifter/nhDrifterMaleMap",
-					"editorAnimation": "heroClasses/drifter/nhDrifterMaleMap_"
+					"editorAnimation" : "heroClasses/drifter/nhDrifterMaleMap_"
 				}
 			}
 		},

@@ -37,7 +37,6 @@
 				"skill" : "leadership",
 				"level" : "basic"
 			}
-			
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -54,7 +53,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "warZealot", 
+							"creature" : "warZealot",
 							"includeUpgrades" : false
 						}
 					]

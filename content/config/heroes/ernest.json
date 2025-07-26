@@ -1,9 +1,21 @@
 {
 	"ernest" : {
 		"army" : [
-			{ "creature" : "peasant", "max" : 50, "min" : 35 },
-			{ "creature" : "pikeman", "max" : 40, "min" : 20 },
-			{ "creature" : "pikeman", "max" : 30, "min" : 15 }
+			{
+				"creature" : "peasant",
+				"max" : 50,
+				"min" : 35
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 40,
+				"min" : 20
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 30,
+				"min" : 15
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,50 +25,58 @@
 			"specialtySmall" : "ernest/peasant_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "advanced", "skill" : "firstAid" },
-			{ "level" : "basic", "skill" : "logistics" },
-			{ "level" : "advanced", "skill" : "estates" }
-			
+			{
+				"level" : "advanced",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "advanced",
+				"skill" : "estates"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
 				"speed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						"limiters" : [
+					"type" : "STACKS_SPEED",
+					"val" : 2,
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "peasant", 
+							"creature" : "peasant",
 							"includeUpgrades" : false
 						}
 					],
-						"updater" : {  
-							"type" : "GROWS_WITH_LEVEL",
-							"valPer20" : 4,
-							"stepSize" : 1
-						}
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 4,
+						"stepSize" : 1
+					}
 				},
 				"damage" : {
-						"limiters" : [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "peasant", 
+							"creature" : "peasant",
 							"includeUpgrades" : false
 						}
 					],
-						"updater" : {  
-							"type" : "GROWS_WITH_LEVEL",
-							"valPer20" : 4,
-							"stepSize" : 1
-						},
-				"type" : "CREATURE_DAMAGE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 4,
+						"stepSize" : 1
+					},
+					"type" : "CREATURE_DAMAGE",
 					"val" : 2,
 					"subtype" : "creatureDamageBoth"
 				},
-				"gold" :{ 
-						"subtype" : "gold", 
-						"type" : "GENERATE_RESOURCE", 
-						"val" : 350 
+				"gold" : {
+					"subtype" : "gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
 				}
 			}
 		},

@@ -45,7 +45,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "fangarm", 
+							"creature" : "fangarm",
 							"includeUpgrades" : false
 						}
 					]
@@ -57,16 +57,16 @@
 				},
 				"speed" : {
 					"type" : "STACKS_SPEED",
-//					"addInfo" : 5,
+					//					"addInfo" : 5,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "fangarm", 
+							"creature" : "fangarm",
 							"includeUpgrades" : false
 						}
 					],
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 10,
 						"stepSize" : 4
 					}

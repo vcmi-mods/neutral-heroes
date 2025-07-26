@@ -45,15 +45,14 @@
 					"subtype" : "ironGolem",
 					"addInfo" : "steelGolem"
 				},
-				"magicResistance" :
-				{
+				"magicResistance" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any",
 					"val" : 100,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "steelGolem", 
+							"creature" : "steelGolem",
 							"includeUpgrades" : false
 						}
 					]

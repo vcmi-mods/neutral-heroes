@@ -38,7 +38,6 @@
 				"skill" : "eagleEye",
 				"level" : "advanced"
 			}
-			
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -47,7 +46,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "sylvanCentaur", 
+							"creature" : "sylvanCentaur",
 							"includeUpgrades" : false
 						}
 					]
@@ -58,7 +57,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "sylvanCentaur", 
+							"creature" : "sylvanCentaur",
 							"includeUpgrades" : false
 						}
 					]

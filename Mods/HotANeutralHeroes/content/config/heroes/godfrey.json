@@ -47,7 +47,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "leprechaun", 
+							"creature" : "leprechaun",
 							"includeUpgrades" : false
 						}
 					]
@@ -57,7 +57,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "leprechaun", 
+							"creature" : "leprechaun",
 							"includeUpgrades" : false
 						}
 					]

@@ -1,9 +1,21 @@
 {
 	"oshmar" : {
 		"army" : [
-			{ "creature" : "troll", "max" : 4, "min" : 2 },
-			{ "creature" : "gnoll", "max" : 16, "min" : 8 },
-			{ "creature" : "gnoll", "max" : 12, "min" : 6 }
+			{
+				"creature" : "troll",
+				"max" : 4,
+				"min" : 2
+			},
+			{
+				"creature" : "gnoll",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "gnoll",
+				"max" : 12,
+				"min" : 6
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,35 +25,40 @@
 			"specialtySmall" : "oshmar/troll_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "firstAid" },
-			{ "level" : "advanced", "skill" : "mysticism" }
-			
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "advanced",
+				"skill" : "mysticism"
+			}
 		],
-"specialty" : {
-	"bonuses" : {
-		"CREATURE_DAMAGE" : {
+		"specialty" : {
+			"bonuses" : {
+				"CREATURE_DAMAGE" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "troll", 
+							"creature" : "troll",
 							"includeUpgrades" : false
 						}
 					],
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 3,
-				"stepSize" : 1
-			},
-			"subtype" : "creatureDamageMax",
-			"type" : "CREATURE_DAMAGE"
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 3,
+						"stepSize" : 1
+					},
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"cure" : {
+					"addInfo" : 0,
+					"subtype" : "cure",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
 		},
-		"cure" : {
-			"addInfo" : 0,
-			"subtype" : "cure",
-			"type" : "SPECIAL_PECULIAR_ENCHANT"
-		}
-	}
-},
 		"texts" : {
 			"biography" : "Oshmar is one of the strongest, most powerful trolls in the land, and an inspiration to his fellow kin. Most other races would also agree he is one of the ugliest trolls, a fact he takes with great pride.",
 			"name" : "Oshmar",

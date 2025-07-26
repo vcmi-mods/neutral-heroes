@@ -1,9 +1,21 @@
 {
 	"orma" : {
 		"army" : [
-			{ "creature" : "halfling", "max" : 30, "min" : 15 },
-			{ "creature" : "halfling", "max" : 20, "min" : 12 },
-			{ "creature" : "dwarf", "max" : 14, "min" : 8 }
+			{
+				"creature" : "halfling",
+				"max" : 30,
+				"min" : 15
+			},
+			{
+				"creature" : "halfling",
+				"max" : 20,
+				"min" : 12
+			},
+			{
+				"creature" : "dwarf",
+				"max" : 14,
+				"min" : 8
+			}
 		],
 		"class" : "drifterF",
 		"images" : {
@@ -13,63 +25,68 @@
 			"specialtySmall" : "orma/halfling_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "advanced", "skill" : "archery" },
-			{ "level" : "advanced", "skill" : "luck" }
-			
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			},
+			{
+				"level" : "advanced",
+				"skill" : "luck"
+			}
 		],
-		
-"specialty" : {
-	"bonuses" : {
-		"freeShooting" : {
+
+		"specialty" : {
+			"bonuses" : {
+				"freeShooting" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "halfling", 
+							"creature" : "halfling",
 							"includeUpgrades" : false
 						}
 					],
-			"type" : "FREE_SHOOTING",
-			"val" : 20
-		},
-		"attack" : {
+					"type" : "FREE_SHOOTING",
+					"val" : 20
+				},
+				"attack" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "halfling", 
+							"creature" : "halfling",
 							"includeUpgrades" : false
 						}
 					],
-			"subtype" : "attack",
-			"type" : "PRIMARY_SKILL",
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 4,
-				"stepSize" : 1
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 4,
+						"stepSize" : 1
+					}
+				},
+				"defence" : {
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "halfling",
+							"includeUpgrades" : false
+						}
+					],
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 2,
+						"stepSize" : 1
+					}
+				},
+				"magicArrow" : {
+					"addInfo" : 0,
+					"subtype" : "magicArrow",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
 			}
 		},
-		"defence" : {
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "halfling", 
-							"includeUpgrades" : false
-						}
-					],
-			"subtype" : "defence",
-			"type" : "PRIMARY_SKILL",
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 2,
-				"stepSize" : 1
-			}
-		},
-		"magicArrow" : {
-			"addInfo" : 0,
-			"subtype" : "magicArrow",
-			"type" : "SPECIAL_PECULIAR_ENCHANT"
-		}
-	}
-},
 		"female" : true,
 		"texts" : {
 			"biography" : "Leader of the halfling's community, Orma is beloved by her peoples. In combat she is fearless and wise, and it is said she can hurl energy stones with the accuracy of the strongest Magic Arrow spell.",

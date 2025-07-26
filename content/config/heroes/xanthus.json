@@ -1,9 +1,21 @@
 {
 	"xanthus" : {
 		"army" : [
-			{ "creature" : "goldGolem", "max" : 4, "min" : 2 },
-			{ "creature" : "goldGolem", "max" : 4, "min" : 2 },
-			{ "creature" : "ironGolem", "max" : 6, "min" : 3 }
+			{
+				"creature" : "goldGolem",
+				"max" : 4,
+				"min" : 2
+			},
+			{
+				"creature" : "goldGolem",
+				"max" : 4,
+				"min" : 2
+			},
+			{
+				"creature" : "ironGolem",
+				"max" : 6,
+				"min" : 3
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,44 +25,52 @@
 			"specialtySmall" : "xanthus/goldGolem_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "tactics" },
-			{ "level" : "basic", "skill" : "resistance" },
-			{ "level" : "basic", "skill" : "estates" }
-			
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
-				"casts":{
+				"casts" : {
 					"type" : "CASTS",
-					"val": 3,
+					"val" : 3,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "goldGolem", 
+							"creature" : "goldGolem",
 							"includeUpgrades" : false
 						}
 					]
 				},
-				"casts2":{
+				"casts2" : {
 					"type" : "CASTS",
-					"val": 3,
+					"val" : 3,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "diamondGolem", 
+							"creature" : "diamondGolem",
 							"includeUpgrades" : false
 						}
 					]
 				},
-				"ironGolemSummoning": {
+				"ironGolemSummoning" : {
 					"type" : "SPELLCASTER",
-					"subtype": "summonIronGolem",
-					"val": 0,
+					"subtype" : "summonIronGolem",
+					"val" : 0,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "goldGolem", 
+							"creature" : "goldGolem",
 							"includeUpgrades" : false
 						}
 					]
@@ -62,32 +82,31 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "goldGolem", 
+							"creature" : "goldGolem",
 							"includeUpgrades" : false
 						}
 					]
 				},
-				"stoneGolemSummoning": {
+				"stoneGolemSummoning" : {
 					"type" : "SPELLCASTER",
-					"subtype": "summonStoneGolem",
-					"val": 0,
+					"subtype" : "summonStoneGolem",
+					"val" : 0,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "diamondGolem", 
+							"creature" : "diamondGolem",
 							"includeUpgrades" : false
 						}
 					]
-					},
-				"summonStonePower" : 
-				{
-				"type" : "SPECIFIC_SPELL_POWER",
+				},
+				"summonStonePower" : {
+					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "summonStoneGolem",
 					"val" : 100,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "diamondGolem", 
+							"creature" : "diamondGolem",
 							"includeUpgrades" : false
 						}
 					]
@@ -95,7 +114,7 @@
 				"gold" : {
 					"subtype" : "gold",
 					"type" : "GENERATE_RESOURCE",
-				"val" : 350
+					"val" : 350
 				}
 			}
 		},

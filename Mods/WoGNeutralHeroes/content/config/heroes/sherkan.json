@@ -42,7 +42,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "gorynych", 
+							"creature" : "gorynych",
 							"includeUpgrades" : false
 						}
 					]

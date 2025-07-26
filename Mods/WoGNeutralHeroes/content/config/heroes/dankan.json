@@ -47,12 +47,12 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "nightmare", 
+							"creature" : "nightmare",
 							"includeUpgrades" : false
 						}
 					],
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 18,
 						"stepSize" : 6
 					}
@@ -63,12 +63,12 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "nightmare", 
+							"creature" : "nightmare",
 							"includeUpgrades" : false
 						}
 					],
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 16,
 						"stepSize" : 6
 					}
@@ -85,7 +85,7 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "nightmare", 
+							"creature" : "nightmare",
 							"includeUpgrades" : false
 						}
 					]

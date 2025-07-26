@@ -1,9 +1,21 @@
 {
 	"kharnus" : {
 		"army" : [
-			{ "creature" : "boar", "max" : 14, "min" : 7 },
-			{ "creature" : "boar", "max" : 10, "min" : 5 },
-			{ "creature" : "goblin", "max" : 10, "min" : 5 }
+			{
+				"creature" : "boar",
+				"max" : 14,
+				"min" : 7
+			},
+			{
+				"creature" : "boar",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "goblin",
+				"max" : 10,
+				"min" : 5
+			}
 		],
 		"class" : "drifterM",
 		"images" : {
@@ -13,68 +25,76 @@
 			"specialtySmall" : "kharnus/boar_spec32.png"
 		},
 		"skills" : [
-			{ "level" : "advanced", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "armorer" },
-			{ "level" : "basic", "skill" : "ballistics" }
-			
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
 		],
-"specialty" : {
-	"bonuses" : {
-		"JOUSTING" : {
+		"specialty" : {
+			"bonuses" : {
+				"JOUSTING" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "boar", 
+							"creature" : "boar",
 							"includeUpgrades" : false
 						}
 					],
-			"type" : "JOUSTING",
-			"val" : 1
-		},
-		"attack" : {
+					"type" : "JOUSTING",
+					"val" : 1
+				},
+				"attack" : {
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "boar", 
+							"creature" : "boar",
 							"includeUpgrades" : false
 						}
 					],
-			"subtype" : "attack",
-			"type" : "PRIMARY_SKILL",
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 12,
-				"stepSize" : 2
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 12,
+						"stepSize" : 2
+					}
+				},
+				"defence" : {
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "boar",
+							"includeUpgrades" : false
+						}
+					],
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 12,
+						"stepSize" : 2
+					}
+				},
+				"ore" : {
+					"subtype" : "ore",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				},
+				"wood" : {
+					"subtype" : "wood",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
 			}
 		},
-		"defence" : {
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "boar", 
-							"includeUpgrades" : false
-						}
-					],
-			"subtype" : "defence",
-			"type" : "PRIMARY_SKILL",
-			"updater" : {  
-				"type" : "GROWS_WITH_LEVEL",
-				"valPer20" : 12,
-				"stepSize" : 2
-			}
-		},
-		"ore" : {
-			"subtype" : "ore",
-			"type" : "GENERATE_RESOURCE",
-			"val" : 1
-		},
-		"wood" : {
-			"subtype" : "wood",
-			"type" : "GENERATE_RESOURCE",
-			"val" : 1
-		}
-	}
-},
 		"texts" : {
 			"biography" : "Kharnus has always been an admirer of the human cavaliers, even when fighting against them. He found these noble knights so inspirational he studied them for years, and then trained his cadre of Boar riders to great degree. Now his Boar Brigade is a match for any cavalry unit they take on, and has earned the grudging respect of many a general.",
 			"name" : "Kharnus",
