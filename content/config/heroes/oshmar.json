@@ -19,10 +19,10 @@
 		],
 		"class" : "drifterM",
 		"images" : {
-			"large" : "oshmar/oshmar58x64.png",
-			"small" : "oshmar/oshmar48x32.png",
-			"specialtyLarge" : "oshmar/troll_spec44.png",
-			"specialtySmall" : "oshmar/troll_spec32.png"
+			"large" : "heroes/oshmar/portraitLarge.png",
+			"small" : "heroes/oshmar/portraitSmall.png",
+			"specialtyLarge" : "heroes/oshmar/specialtyLarge.png",
+			"specialtySmall" : "heroes/oshmar/specialtySmall.png"
 		},
 		"skills" : [
 			{

@@ -19,10 +19,10 @@
 		],
 		"class" : "drifterF",
 		"images" : {
-			"large" : "zarantiri/zarantiri58x64.png",
-			"small" : "zarantiri/zarantiri48x32.png",
-			"specialtyLarge" : "zarantiri/mummy_spec44.png",
-			"specialtySmall" : "zarantiri/mummy_spec32.png"
+			"large" : "heroes/zarantiri/portraitLarge.png",
+			"small" : "heroes/zarantiri/portraitSmall.png",
+			"specialtyLarge" : "heroes/zarantiri/specialtyLarge.png",
+			"specialtySmall" : "heroes/zarantiri/specialtySmall.png"
 		},
 		"skills" : [
 			{

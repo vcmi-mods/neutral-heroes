@@ -35,10 +35,11 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"ACID_BREATH" : {
-					"type" : "ACID_BREATH",
-					"val" : 10,
-					"addInfo" : 30,
+				"acidBreath" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreathDamage",
+					"val" : 30,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
@@ -47,7 +48,33 @@
 						}
 					]
 				},
-				"DARKNESS" : {
+				"acidBreathDamage" :
+				{
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "acidBreathDamage",
+					"val" : 10,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "gorynych",
+							"includeUpgrades" : false
+						}
+					]
+				},
+				"reduceDefence" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreath",
+					"val" : 100,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "gorynych",
+							"includeUpgrades" : false
+						}
+					]
+				},				
+				"darkness" : {
 					"type" : "DARKNESS",
 					"val" : 4
 				}

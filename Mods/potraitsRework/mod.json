@@ -1,0 +1,19 @@
+{
+	"name" : "Potraits rework",
+	"description" : "Reworked portraits",
+	"modType" : "Graphical",
+	"author" : "Andruids",
+	"contact" : "",
+	"licenseName" : "",
+	"licenseURL" : "",
+	"version" : "1.0",
+	"keepDisabled" : true,
+	"compatibility" : {
+		"min" : "1.8.0"
+	},
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	}
+}

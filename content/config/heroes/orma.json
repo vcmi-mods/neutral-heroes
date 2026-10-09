@@ -19,10 +19,10 @@
 		],
 		"class" : "drifterF",
 		"images" : {
-			"large" : "orma/orma58x64.png",
-			"small" : "orma/orma48x32.png",
-			"specialtyLarge" : "orma/halfling_spec44.png",
-			"specialtySmall" : "orma/halfling_spec32.png"
+			"large" : "heroes/orma/portraitLarge.png",
+			"small" : "heroes/orma/portraitSmall.png",
+			"specialtyLarge" : "heroes/orma/specialtyLarge.png",
+			"specialtySmall" : "heroes/orma/specialtySmall.png"
 		},
 		"skills" : [
 			{

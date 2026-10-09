@@ -19,10 +19,10 @@
 		],
 		"class" : "drifterM",
 		"images" : {
-			"large" : "romires/romires58x64.png",
-			"small" : "romires/romires48x32.png",
-			"specialtyLarge" : "romires/nomad_spec44.png",
-			"specialtySmall" : "romires/nomad_spec32.png"
+			"large" : "heroes/romires/portraitLarge.png",
+			"small" : "heroes/romires/portraitSmall.png",
+			"specialtyLarge" : "heroes/romires/specialtyLarge.png",
+			"specialtySmall" : "heroes/romires/specialtySmall.png"
 		},
 		"skills" : [
 			{
