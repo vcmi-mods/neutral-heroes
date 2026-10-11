@@ -76,35 +76,35 @@
 		"name" : "Neutrale Helden",
 		"description" : "Mod erstellt neutrale Heldenklasse namens Drifter. Drifter können in Tavers angeheuert werden, können aber nicht als Starthelden gewählt werden.",
 		"translations" : [
-			"translation/neutral-heroes/german.json"
+			"translation/german.json"
 		]
 	},
 	"chinese" : {
 		"name" : "中立英雄",
 		"description" : "该模组创建了名为浪人（Drifter）的中立英雄职业。浪人可以在酒馆雇佣，但不能选择作为起始英雄。",
 		"translations" : [
-			"translation/neutral-heroes/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Neutrální hrdinové",
 		"description" : "Tento mod vytváří neutrální třídu hrdinů zvanou Tulák. Tuláci mohou být najímáni v putyce, ale nelze je vybrat jako startovní hrdiny.",
 		"translations" : [
-			"translation/neutral-heroes/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"russian" : {
 		"name" : "Нейтральные герои",
 		"description" : "Мод добавляет класс нейтральных героев под названием Странники. Странников можно нанять в Таверне, но нельзя выбрать в качестве стартового героя.",
 		"translations" : [
-			"translation/neutral-heroes/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Bohaterowie Neutralni",
 		"description" : "Mod dodaje klasę bohaterów neutralnych zwanych Wędrowcami. Wędrowców można zrekrutować w Tawernie, ale nie można ich wybrać na bohatera początkowego.",
 		"translations" : [
-			"translation/neutral-heroes/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"heroClasses" : [
