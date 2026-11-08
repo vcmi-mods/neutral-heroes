@@ -81,9 +81,10 @@
 					}
 				},
 				"magicArrow" : {
-					"addInfo" : 0,
 					"subtype" : "magicArrow",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 35,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
@@ -92,7 +93,7 @@
 			"biography" : "Leader of the halfling's community, Orma is beloved by her peoples. In combat she is fearless and wise, and it is said she can hurl energy stones with the accuracy of the strongest Magic Arrow spell.",
 			"name" : "Orma",
 			"specialty" : {
-				"description" : "{Halflings}\r\n\r\nIncreases Attack and Defence of any Halflings by 5% for every level and Halflings can shoot even if otherwise blocked. Beside Orma can cast Magic Arrow with increased effect.",
+				"description" : "{Halflings}\r\n\r\nIncreases Attack and Defence of any Halflings by 5% for every level and Halflings can shoot even if otherwise blocked. Beside Orma can cast Magic Arrow with increased effect by 35%.",
 				"name" : "Halflings/Magic Arrow",
 				"tooltip" : "Bonus: Halflings, magic arrow"
 			}

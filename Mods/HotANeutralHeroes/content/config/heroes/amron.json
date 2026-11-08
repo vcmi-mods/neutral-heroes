@@ -42,8 +42,14 @@
 			"bonuses" : {
 				"ironGolemtoSteelGolem" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "ironGolem",
-					"addInfo" : "steelGolem"
+					"addInfo" : "steelGolem",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ironGolem",
+							"includeUpgrades" : false
+						}
+					]					
 				},
 				"magicResistance" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",

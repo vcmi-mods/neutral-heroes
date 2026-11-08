@@ -35,7 +35,8 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"acidBreath" : {
+				"acidBreath" :
+				{
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "acidBreathDamage",
 					"val" : 30,
@@ -47,7 +48,8 @@
 						}
 					]
 				},
-				"acidBreathDamage" : {
+				"acidBreathDamage" :
+				{
 					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "acidBreathDamage",
 					"val" : 10,
@@ -59,7 +61,8 @@
 						}
 					]
 				},
-				"reduceDefence" : {
+				"reduceDefence" :
+				{
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "acidBreath",
 					"val" : 100,
@@ -70,7 +73,7 @@
 							"includeUpgrades" : false
 						}
 					]
-				},
+				},				
 				"darkness" : {
 					"type" : "DARKNESS",
 					"val" : 4

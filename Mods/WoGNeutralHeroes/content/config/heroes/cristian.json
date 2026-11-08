@@ -43,12 +43,24 @@
 				},
 				"arcticSharpshooter2lavaSharpshooter" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "arcticSharpshooter",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "arcticSharpshooter",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "lavaSharpshooter"
 				},
 				"lavaSharpshooter2arcticSharpshooter" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "lavaSharpshooter",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "lavaSharpshooter",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "arcticSharpshooter"
 				}
 			}

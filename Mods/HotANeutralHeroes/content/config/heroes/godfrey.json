@@ -41,9 +41,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"rebirth" : {
-					"type" : "REBIRTH",
-					"subtype" : "rebirthRegular",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "rebirth",
 					"val" : 100,
+					"addInfo" : { "guaranteed" : false },
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
