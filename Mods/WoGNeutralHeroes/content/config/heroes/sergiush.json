@@ -47,9 +47,10 @@
 					"valueType" : "BASE_NUMBER"
 				},
 				"REBIRTH" : {
-					"type" : "REBIRTH",
-					"subtype" : "rebirthSpecial",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "rebirth",
 					"val" : 50,
+					"addInfo" : { "guaranteed" : true },
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",

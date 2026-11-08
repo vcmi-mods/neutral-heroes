@@ -43,62 +43,134 @@
 				},
 				"fireMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "fireMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "airMessenger"
 				},
 				"fireMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "fireMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "earthMessenger"
 				},
 				"fireMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "fireMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "fireMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "waterMessenger"
 				},
 				"airMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "airMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "airMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "fireMessenger"
 				},
 				"airMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "airMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "airMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "earthMessenger"
 				},
 				"airMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "airMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "airMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "waterMessenger"
 				},
 				"earthMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "earthMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "earthMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "fireMessenger"
 				},
 				"earthMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "earthMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "earthMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "airMessenger"
 				},
 				"earthMessenger2waterMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "earthMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "earthMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "waterMessenger"
 				},
 				"waterMessenger2fireMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "waterMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "waterMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "fireMessenger"
 				},
 				"waterMessenger2airMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "waterMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "waterMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "airMessenger"
 				},
 				"waterMessenger2earthMessenger" : {
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "waterMessenger",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "waterMessenger",
+							"includeUpgrades" : false
+						}
+					],
 					"addInfo" : "earthMessenger"
 				}
 			}
