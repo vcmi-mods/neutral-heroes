@@ -44,7 +44,9 @@
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "rebirth",
 					"val" : 100,
-					"addInfo" : { "guaranteed" : false },
+					"addInfo" : {
+						"guaranteed" : false
+					},
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",

@@ -54,7 +54,15 @@
 					"type" : "CREATURE_DAMAGE"
 				},
 				"curse" : {
-					"addInfo" : [ 5, 4, 3, 2, 1, 0, 0 ],
+					"addInfo" : [
+						5,
+						4,
+						3,
+						2,
+						1,
+						0,
+						0
+					],
 					"subtype" : "curse",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}

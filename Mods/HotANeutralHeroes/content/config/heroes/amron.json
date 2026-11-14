@@ -49,7 +49,7 @@
 							"creature" : "ironGolem",
 							"includeUpgrades" : false
 						}
-					]					
+					]
 				},
 				"magicResistance" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",

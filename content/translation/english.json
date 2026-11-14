@@ -38,7 +38,7 @@
 	"hero.neutral-heroes.melfis.specialty.tooltip" : "Bonus: Rogues, gold",
 	"hero.neutral-heroes.orma.biography" : "Leader of the halfling's community, Orma is beloved by her peoples. In combat she is fearless and wise, and it is said she can hurl energy stones with the accuracy of the strongest Magic Arrow spell.",
 	"hero.neutral-heroes.orma.name" : "Orma",
-	"hero.neutral-heroes.orma.specialty.description" : "{Halflings}\r\n\r\nIncreases Attack and Defence of any Halflings by 5% for every level and Halflings can shoot even if otherwise blocked. Beside Orma can cast Magic Arrow with increased effect.",
+	"hero.neutral-heroes.orma.specialty.description" : "{Halflings}\r\n\r\nIncreases Attack and Defence of any Halflings by 5% for every level and Halflings can shoot even if otherwise blocked. Beside Orma can cast Magic Arrow with increased effect by 35%.",
 	"hero.neutral-heroes.orma.specialty.name" : "Halflings/Magic Arrow",
 	"hero.neutral-heroes.orma.specialty.tooltip" : "Bonus: Halflings, magic arrow",
 	"hero.neutral-heroes.oshmar.biography" : "Oshmar is one of the strongest, most powerful trolls in the land, and an inspiration to his fellow kin. Most other races would also agree he is one of the ugliest trolls, a fact he takes with great pride.",
